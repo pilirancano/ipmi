@@ -1,4 +1,3 @@
-
 PImage paisaje;                             //Pilar Rancaño Luchetti
 void setup(){                                      //Comision 2
  size (800,400);                                    //  120360/1
@@ -8,7 +7,6 @@ background(150,155,240);
 }
 void draw (){
  println(mouseX+"/"+mouseY);
-colorMode(HSB);
 
 //Laguna
 //Rectangulo
@@ -69,7 +67,6 @@ triangle(431,214,415,214,420,210);
 triangle(503,192,519,192,512,184);
 
 //Montaña 2
- colorMode(HSB);
  //Bordes
  stroke(150,100,160);
  line(645,252,518,190);
