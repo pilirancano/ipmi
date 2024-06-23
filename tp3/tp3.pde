@@ -46,6 +46,7 @@ void keyPressed() {
     tam2 = 17;
     tam= 40;
     colores= color (255);
+    colores2= color (0);
   }
 }
 
